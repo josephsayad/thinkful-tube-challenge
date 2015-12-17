@@ -1,0 +1,132 @@
+html, body, div, h1, h2, h3,
+p, ul, li, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Roboto', sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  background-color:  #f2f2f2;
+}
+span {
+  color: #b31217;
+  text-shadow: 0 1px 0 #f8f8ff;
+}
+img {
+  display: inline-block;
+  border-radius: 0.6em;
+  margin: 1em 1em 1em 1em;
+  border: 0.1em solid #242424;
+  cursor: pointer;
+}
+input[type="text"] {
+  display: block;
+  margin: 0 auto;
+  width: 52em;
+  height: 32px;
+  font-size: 15px;
+  padding: 3px;
+  border: solid 2px #b31217;
+  transition: border 1s;
+  background-color: #f8f8ff;
+  font-family: 'Bevan', cursive;
+  font-style: italic;
+  border-radius: 40px;
+  box-shadow: -0.5px -0.5px 0 #b31217;
+  text-align: center;
+  background-image: url("../images/youtube-icon.png");
+  background-position: -45px 8.8px;
+  background-size: 156px 30px;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+}
+input[type="text"]:focus {
+  outline: none;
+  border: solid 2px #252525;
+  box-shadow: -0.5px -0.5px 0 #252525;
+}
+input[type="submit"] {
+  display: block;
+  margin: 1.5em auto;
+  text-align: center;
+  font-family: 'Bevan', cursive;
+  height: 2em;
+  width: 10em;
+  background-color: #b31217;
+  border: 1px solid #f8f8ff;
+  color: #f8f8ff;
+  font-size: 15px;
+}
+#wrapper-lid {
+  width: 68em;
+  height: 3em;
+  border-radius: 3px;
+  margin: 0.5em auto 0.15em auto;
+  background-color: #000000;
+}
+.hero-header {
+  height: 3em;
+  width: 70em;
+}
+.hero-header > h1 {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Damion', cursive;
+  font-weight: bold;
+  padding-top: 0.4em;
+  color: #f8f8ff;
+}
+#wrapper {
+  width: 68em;
+  height: 11em;
+  margin: 0 auto;
+  border-radius: 3px;
+  background-color: #b31217;
+}
+#search-term {
+  padding-top: 2.5em;
+}
+#search-results {
+  padding: 0 3em;
+  margin-top: 1em;
+  text-align: center;
+}
+#list {
+  display: inline-block;
+  list-style-type: none;
+}
+#list > li {
+  display: inline-block;
+  width: 23em;
+  margin: 0 0.2em 0.5em 0.2em;
+  border: 2px solid #000;
+  border-radius: 6px;
+}
+.title-wrapper {
+  height: 3em;
+  width: 23em;
+  border-radius: 1px;
+  margin: 0 auto;
+  background-color: #000000;
+  cursor: pointer;
+}
+.title-wrapper > h1 {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  color: #b31217;
+  font-family: 'Damion', cursive;
+  font-weight: bold;
+  font-size: 1.5em;
+  border-radius: 6px;
+  padding-top: 0.3em;
+}
+#spec {
+  display: none;
+}
