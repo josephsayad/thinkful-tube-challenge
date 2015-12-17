@@ -111,7 +111,6 @@ input[type="submit"] {
 .title-wrapper {
   height: 3em;
   width: 23em;
-  border-radius: 1px;
   margin: 0 auto;
   background-color: #000000;
   cursor: pointer;
@@ -127,6 +126,33 @@ input[type="submit"] {
   border-radius: 6px;
   padding-top: 0.3em;
 }
-#spec {
+#specs {
   display: none;
+  height: 13.5em;
+  width: 23em;
+  background-color: #000000;
+  border-radius: 3px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.hide {
+  display: none;
+}
+.title,
+.channel-name, 
+.upload-date {
+  color: #f8f8ff;
+  font-family: monospace;
+  padding-top: 1em;
+  margin: 0 1.2em;
+  text-align: center;
+}
+.title,
+.channel-name {
+  width: 25em;
+  border-bottom: 1px solid #c7c7c7;
+  padding-bottom: 1em;
+}
+.title {
+  padding-top: 5em;
 }
